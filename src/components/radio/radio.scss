@@ -1,0 +1,39 @@
+#radio{
+  p{
+    position: relative;
+    width: 34px;
+    height: 34px;
+    margin-right: 20px;
+    border: 1px solid #333;
+    border-radius: 50%;
+    &::before{
+      transition: all 0.3s linear;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 0;
+      height: 0;
+      content:"";
+      transform-origin: center;
+      border-radius: 50%;
+      background: #333;
+    }
+    .radio-type{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 34px;
+      height: 34px;
+      background: transparent !important;
+      opacity: 0;
+    }
+    &.select::before{
+      transition: all 0.3s linear;
+      transform-origin: center;
+      top: 6px;
+      left: 6px;
+      width: 22px;
+      height: 22px;
+    }
+  }
+}

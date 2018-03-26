@@ -1,0 +1,49 @@
+#child {
+  .btn-pad {
+    padding: 50px;
+  }
+  .cls-box {
+    margin-bottom: 50px;
+    .cls-coms {
+      margin: 0 25px 25px;
+      font-size: 28px;
+      color: #666;
+      border-bottom: 1px solid #666;
+      &:first-child {
+        border-bottom: transparent;
+      }
+      &.active {
+        color: #3aa5fa;
+        border-bottom: 1px solid #3aa5fa;
+      }
+    }
+  }
+  .child-item {
+    padding-left: 35px;
+    position: relative;
+    &::before {
+      position: absolute;
+      top: 3px;
+      left: 0;
+      width: 10px;
+      height: 30px;
+      content: "";
+      background: linear-gradient(to left, #3f99e8, #10bbed);
+      background: gradient(linear, left, from(#3f99e8), to(#10bbed));
+    }
+    h4 {
+      font-size: 32px;
+      color: #333;
+      margin-bottom: 30px;
+      font-weight: normal;
+    }
+    & > div{
+      margin-bottom: 40px;
+      p{
+        font-size: 26px;
+        color: #333;
+        line-height: 1.7;
+      }
+    }
+  }
+}

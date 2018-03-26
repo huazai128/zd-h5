@@ -1,0 +1,21 @@
+#title{
+  &>h3 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: normal;
+    &>span {
+      position: relative;
+      font-size: 34px;
+      color: #333;
+      &::before {
+        position: absolute;
+        left: 0;
+        right: 0;
+        height: 3px;
+        bottom: -10px;
+        content: '';
+        background: #666;
+      }
+    }
+  }
+}

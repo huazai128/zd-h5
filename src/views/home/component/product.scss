@@ -1,0 +1,155 @@
+#product {
+  .pro-one {
+    padding: 110px 30px 70px;
+    background: #fff;
+    h3 {
+      font-size: 30px;
+      color: #fff;
+      font-weight: normal;
+      margin-bottom: 30px;
+    }
+    .pro-text {
+      font-size: 24px;
+      color: #999;
+      text-align: center;
+    }
+    .tab-box {
+      .am-tabs-default-bar-tab {
+        color: #333;
+        font-size: 28px;
+      }
+    }
+    .tab-item {
+      width: 100%;
+      border: 1px solid #3ea2fa;
+      margin-top: 30px;
+      position: relative;
+      .tab-cont {
+        padding: 50px 25px;
+        &>div {
+          margin-bottom: 30px;
+        }
+        h4 {
+          padding-left: 45px;
+          background: url("~img/search.png") no-repeat left center;
+          background-size: 30px;
+          font-size: 30px;
+          color: #333;
+          font-weight: normal;
+        }
+        p {
+          font-size: 24px;
+          color: #999;
+          line-height: 1.7;
+        }
+      }
+      .btn-wth {
+        position: absolute;
+        top: 25px;
+        right: 30px;
+        z-index: 1;
+        width: 200px;
+        .btn {
+          border-radius: 0;
+        }
+      }
+    }
+  }
+  .pro-two {
+    .pro-text {
+      font-size: 24px;
+      text-align: center;
+    }
+    .proOne {
+      height: 100%;
+      .swipe-top {
+        position: absolute;
+        top: 120px;
+        left: 0;
+        z-index: 10;
+        width: 100%;
+        #title>h3>span {
+          color: #fff;
+          &::before {
+            background: #fff;
+          }
+        }
+        .pro-text {
+          color: #fff;
+        }
+      }
+      .plan-box {
+        padding: 360px 30px 30px;
+        h4 {
+          font-size: 32px;
+          color: #fff;
+          font-weight: normal;
+          text-align: center;
+          padding-top: 80px;
+          background: url("~img/tu09.png") no-repeat top center;
+          margin-bottom: 100px;
+        }
+        .plan-items {
+          .item {
+            padding-top: 10px;
+            margin-bottom: 30px;
+            .item-bg {
+              width: 108px;
+              height: 108px;
+              border: 1px solid #fff;
+              margin: 0 auto;
+              background: url("~img/tu10.png") no-repeat center;
+              margin-bottom: 15px;
+            }
+            p {
+              font-size: 28px;
+              color: #fff;
+              text-align: center;
+            }
+          }
+        }
+        .btn-more {
+          &>a {
+            display: block;
+            width: 260px;
+            height: 60px;
+            line-height: 60px;
+            text-align: center;
+            color: #fff;
+            font-size: 28px;
+            border: 1px solid #fff;
+            margin: 60px auto;
+          }
+        }
+      }
+      .swiper-wrapper {
+        height: 1214px;
+      }
+      .swiper-pagination-bullet {
+        width: 10px;
+        height: 10px;
+        border: 2px solid #fff;
+        background: transparent;
+        &.swiper-pagination-bullet-active {
+          background: #fff;
+        }
+      }
+      .bg01 {
+        background: url("~img/bg01.png") no-repeat center;
+        background-size: cover;
+      }
+      .bg02 {
+        background: url("~img/bg02.png") no-repeat center;
+        background-size: cover;
+      }
+      .bg03 {
+        background: url("~img/bg03.png") no-repeat center;
+        background-size: cover;
+      }
+      .bg04 {
+        background: url("~img/bg04.png") no-repeat center;
+        background-size: cover;
+      }
+    }
+  }
+}

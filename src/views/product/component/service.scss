@@ -1,0 +1,70 @@
+#seriver {
+  .ser-img {
+    padding: 45px 30px 70px;
+    img {
+      width: 176px;
+      height: 176px;
+    }
+  }
+  .ser-one {
+    padding: 0 30px;
+    .ser-item {
+      text-align: center;
+      margin-bottom: 220px;
+      &:last-child{
+        margin-bottom: 30px;
+      }
+      h3 {
+        font-size: 32px;
+        font-weight: normal;
+        color: #333;
+        margin-bottom: 15px;
+      }
+      .ser-detail {
+        margin-bottom: 55px;
+        &>p {
+          font-size: 24px;
+          color: #999;
+          line-height: 1.7;
+        }
+      }
+      .ser-list {
+        border: 1px solid #36a7fb;
+        margin-bottom: 50px;
+        box-shadow: 0 0 2px #81c8ff;
+        &>div {
+          padding: 45px 20px;
+          overflow: hidden;
+          .img-box {
+            float: left;
+            width: 158px;
+            height: 150px;
+            overflow: hidden;
+            & > img{
+              width: 100%;
+              height: auto;
+            }
+          }
+          .item-content {
+            text-align: left;
+            margin-left: 200px;
+            h4 {
+              font-size: 32px;
+              font-weight: normal;
+              color: #333;
+              margin-bottom: 15px;
+              padding-right: 30px;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              white-space: nowrap;
+              background: url("~img/arrow.png") no-repeat right center;
+            }
+            .ser-detail {
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+#profile{
+  .pro-img{
+    padding: 90px 90px 60px;
+    img{
+      width: 100%;
+      height: auto;
+    }
+  }
+  p{
+    font-size: 26px;
+    color: #666;
+    line-height: 1.7;
+    margin-bottom: 50px;
+  }
+  .pro-swiper{
+    .profile{
+      padding-bottom: 50px;
+      .swiper-pagination-bullet{
+        width: 10px;
+        height: 10px;
+        background: #c1c1c1;
+        &.swiper-pagination-bullet-active{
+          background: #333;
+        }
+      }
+    }
+    img{
+      width: 100%;
+    }
+  }
+}

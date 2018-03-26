@@ -1,0 +1,22 @@
+{
+  "presets": [
+    "env",
+    "react",
+    "stage-0"
+  ],
+  "plugins": [
+    "transform-class-properties", 
+    ["import", {
+      "libraryName": "antd-mobile",
+      "style": true
+    }]
+  ],
+   "env": {
+    // 开发环境开启热启动
+    "development": {
+      "presets": [
+        "react-hmre"
+      ]
+    }
+  }
+}

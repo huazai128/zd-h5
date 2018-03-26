@@ -1,0 +1,40 @@
+#realize{
+  padding: 70px 30px 30px;
+  background: #f3f3f3;
+  .realize-box{
+    padding: 30px 50px;
+    .realize-lists,.realize-item{
+      margin-bottom: 15px;
+    }
+    p{
+      height: 80px;
+      background: #e7e2e3;
+      margin: 0 5px;
+      padding: 0 15px;
+      font-size: 24px;
+      color: #333;
+      border-radius: 5px;
+      span{
+        display: block;
+      }
+    }
+  }
+  .res-img{
+    margin-bottom: 30px;
+    img{
+      width: 100%;
+      height: auto;
+    }
+  }
+  .res-moe{
+    padding-top:70px;
+    background: url("~img/icon20.png")no-repeat top center;
+    .res-up{
+      padding-top:115px;
+      background: url("~img/icon21.png")no-repeat top center;
+      text-align: center;
+      color: #333;
+      font-size: 24px;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+#recruit{
+  .rec-box{
+    padding: 30px;
+    .rec-tabs{
+      padding-bottom: 20px;
+      border-bottom: 1px solid #ddd;
+      text-align: center;
+      .tab-item{
+        padding: 0 15px;
+        color: #666;
+        font-size: 30px;
+        padding-top: 70px;
+        &.icon01{
+          background: url("~img/icon10.png") no-repeat top center;
+        }
+        &.icon02{
+          background: url("~img/icon09.png") no-repeat top center;
+        }
+        &.icon01.active{
+          background: url("~img/icon08.png") no-repeat top center;
+          color: #39a5fa;
+        }
+        &.icon02.active{
+          background: url("~img/icon11.png") no-repeat top center;
+          color: #39a5fa;
+        }
+      }
+    }
+  }
+}

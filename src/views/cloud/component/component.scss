@@ -1,0 +1,19 @@
+#comp-box {
+  .solve-item {
+    text-align: center;
+    margin-bottom: 30px;
+    .solve-cont {
+      padding: 0 15px;
+      img {
+        width: 100px;
+        height: auto;
+      }
+      p {
+        font-size: 22px;
+        color: #333;
+        overflow: hidden;
+        line-height: 1.6;
+      }
+    }
+  }
+}

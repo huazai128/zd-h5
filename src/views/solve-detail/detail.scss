@@ -1,0 +1,95 @@
+#solveDetail {
+  .sup-box {
+    padding: 0 30px;
+    h3 {
+      font-size: 32px;
+      font-weight: normal;
+      color: #333;
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    .sup-one {
+      padding: 75px 0;
+      .acc-box {
+        .am-accordion-header {
+          height: 120px;
+          line-height: 120px;
+          i {
+            top: 50%;
+            margin-top: -15px;
+          }
+        }
+        .am-accordion-item {
+          border-bottom: 1px solid #ddd;
+        }
+        .acc-icon {
+          padding-left: 150px;
+          font-size: 30px;
+          color: #333;
+          &.icon01 {
+            background: url("~img/tu14.png") no-repeat 15px center;
+          }
+          &.icon02 {
+            background: url("~img/tu15.png") no-repeat 15px center;
+          }
+          &.icon03 {
+            background: url("~img/tu16.png") no-repeat 15px center;
+          }
+        }
+        p {
+          padding: 20px 30px;
+          font-size: 26px;
+          color: #666;
+          background: #f3f3f3;
+          line-height: 1.7;
+        }
+      }
+    }
+    .sup-two {
+      .two-box {
+        padding-left: 70px;
+        margin-bottom: 70px;
+        .two-title {
+          font-size: 30px;
+          color: #333;
+          position: relative;
+          margin-bottom: 25px;
+          &::before {
+            position: absolute;
+            top: 4px;
+            left: -70px;
+            width: 28px;
+            height: 28px;
+            content: "";
+            background: linear-gradient(to left, #3f99e8, #10bbed);
+            background: gradient(linear, left, from(#3f99e8), to(#10bbed));
+          }
+        }
+        p{
+          font-size: 26px;
+          color: #666;
+          line-height: 1.7;
+          margin-bottom: 40px;
+        }
+        .two-imgs{
+          margin-top: 30px;
+          padding-right: 70px;
+          & > div{
+            margin-bottom: 50px;
+            p{
+              margin: 0 20px;
+              img{
+                width: 100%;
+                height: auto;
+              }
+            }
+          }
+        }
+      }
+    }
+    .two-wth{
+      width: 270px;
+      margin: 0 auto 70px;
+    }
+  }
+}

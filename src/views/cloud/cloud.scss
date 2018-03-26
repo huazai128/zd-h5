@@ -1,0 +1,52 @@
+#cloud {
+  
+  .rec-box {
+    padding: 30px 30px;
+    .rec-tabs {
+      padding-bottom: 20px;
+      text-align: center;
+      .tab-item {
+        padding: 0 15px;
+        color: #666;
+        font-size: 28px;
+        padding-top: 70px;
+        &.icon01 {
+          background: url("~img/icon12.png") no-repeat top center;
+        }
+        &.icon02 {
+          background: url("~img/icon13.png") no-repeat top center;
+        }
+        &.icon03 {
+          background: url("~img/icon14.png") no-repeat top center;
+        }
+        &.icon04 {
+          background: url("~img/icon15.png") no-repeat top center;
+        }
+        &.icon01.active {
+          background: url("~img/icon16.png") no-repeat top center;
+          color: #39a5fa;
+        }
+        &.icon02.active {
+          background: url("~img/icon17.png") no-repeat top center;
+          color: #39a5fa;
+        }
+        &.icon03.active {
+          background: url("~img/icon18.png") no-repeat top center;
+          color: #39a5fa;
+        }
+        &.icon04.active {
+          background: url("~img/icon19.png") no-repeat top center;
+          color: #39a5fa;
+        }
+      }
+    }
+  }
+  .cloud-text{
+    padding: 0 80px;
+    font-size: 26px;
+    color: #666;
+    text-align: center;
+    line-height: 1.7;
+    margin-bottom: 60px;
+  }
+}

@@ -1,0 +1,69 @@
+#adv{
+  height: 400px;
+  box-sizing: border-box;
+  &.prod{
+    background: url("~img/bg06.png") no-repeat top center;
+    background-size: cover;
+  }
+  &.proDetail{
+    background: url("~img/bg01.jpg") no-repeat top center;
+    background-size: cover;
+  }
+  &.solveDetail{
+    background: url("~img/bg06.png") no-repeat top center;
+    background-size: cover;
+  }
+  &.news_bg{
+    background: url("~img/bg07.jpg") no-repeat top center;
+    background-size: cover;
+    h3{
+      padding: 0 150px;
+    }
+  }
+  &.recruit_bg{
+    background: url("~img/bg08.jpg") no-repeat top center;
+    background-size: cover;
+    h3{
+      padding: 0 150px;
+    }
+  }
+  &.cloud_bg{
+    background: url("~img/bg10.jpg") no-repeat top center;
+    background-size: cover;
+  }
+  &.banner1{
+    background: url("~img/banner1.jpg") no-repeat top center;
+    background-size: cover;
+  }
+  &.banner2{
+    background: url("~img/banner2.jpg") no-repeat top center;
+    background-size: cover;
+  }
+  &.banner3{
+    background: url("~img/banner3.jpg") no-repeat top center;
+    background-size: cover;
+  }
+  &.banner4{
+    background: url("~img/banner4.jpg") no-repeat top center;
+    background-size: cover;
+  }
+  .cont{
+    text-align: center;
+    & > h3{
+      font-size: 34px;
+      color: #fff;
+      font-weight: normal;
+      line-height: 1.7;
+      margin-bottom: 15px;
+    }
+    & > p{
+      font-size: 24px;
+      color: #ddd;
+      line-height: 1.7;
+    }
+    .btn-wth{
+      width: 230px;
+      margin: 50px auto 0;
+    }
+  }
+}
