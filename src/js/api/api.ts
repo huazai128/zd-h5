@@ -19,8 +19,8 @@ axios.defaults.headers.common['Authorization'] = "Bearer " + localStorage.getIte
 
 //添加请求拦截器
 axios.interceptors.request.use(
-  (req: AxiosRequestConfig) => {
-    return req;
+  (req: AxiosRequestConfig):any => {
+    return of(req);
   },
   (error: AxiosError) => {
     Toast.error(error.message,2);

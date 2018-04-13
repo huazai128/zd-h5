@@ -21,6 +21,7 @@ interface HeadProps<T> {
   path: string;
   page: string;
 }
+
 export default class Heads<T> extends React.Component<HeadProps<T>, HeadState<T>> {
   constructor(props: HeadProps<T>) {
     super(props);
@@ -79,7 +80,7 @@ export default class Heads<T> extends React.Component<HeadProps<T>, HeadState<T>
         </div>
         <div className="navs-lists" ref="navs">
           {menus.map((item, index) => (
-            !!item!.children ? (<Accordion className="my-accordion">
+            !!item.children ? (<Accordion className="my-accordion">
               <Accordion.Panel header={<div className={`icon ${item.icon}`}>{item.title}</div>}>
                 <List className="my-list">
                   {item!.children.map((child, idx) => (

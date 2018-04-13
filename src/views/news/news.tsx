@@ -42,11 +42,18 @@ export default class News extends React.Component<any, any>{
     }
   }
   componentDidMount() {
-    combineLatest(get("/news", { column: 1, pre_page: 2, public: 1 }), get("/news", { column: 2, pre_page: 2, public: 1 }), get("/news", { column: 3, pre_page: 2, public: 1 })).subscribe((res) => {
-      this.setState({
-        result: res
+    const params = {
+      pre_page: 2, public: 1
+    }
+    combineLatest(
+      get("/news", { column: 1, ...params }),
+      get("/news", { column: 2, ...params }),
+      get("/news", { column: 3, ...params }))
+      .subscribe((res) => {
+        this.setState({
+          result: res
+        })
       })
-    })
   }
   render() {
     const { result } = this.state;

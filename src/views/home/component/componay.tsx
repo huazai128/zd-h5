@@ -19,9 +19,11 @@ const compDats = [
 ]
 
 export default class Componay extends React.Component<any, any>{
+  
   constructor(props) {
     super(props)
   }
+
   componentDidMount() {
     new Swiper('.compOne', {
       slidesPerView: 2,
@@ -42,6 +44,7 @@ export default class Componay extends React.Component<any, any>{
       pagination: '.compFore .swiper-pagination',
     });
   }
+
   render() {
     return (
       <div id="componay">

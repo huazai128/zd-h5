@@ -44,7 +44,7 @@ export default class NewsDatail extends React.Component<any, NewsDatailState>{
                 var value = Number(s) * 0.02;
                 return value + 'rem ';
               })
-            }} className="content" >
+            }} className="content">
             </div>
           </div>
           <Footer></Footer>
