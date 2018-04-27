@@ -160,7 +160,6 @@ export default class SolveDetailComponent<T> extends React.Component<any, Detail
   }
   // 显示表单
   change = () => {
-    // this.setState({ isForm: true, type: 0 });
     window.open('http://wpa.qq.com/msgrd?v=3&uin=2146594489&site=qq&menu=yes', '_blank', 'height=502, width=644,toolbar=no,scrollbars=no,menubar=no,status=no');
   }
   // 关闭

@@ -60,6 +60,7 @@ export default class Heads<T> extends React.Component<HeadProps<T>, HeadState<T>
       node.classList.remove("navs-box");
     })
   }
+
   // 显示导航
   menuTabs = (e) => {
     e.stopPropagation();
@@ -91,7 +92,7 @@ export default class Heads<T> extends React.Component<HeadProps<T>, HeadState<T>
             </Accordion>) : (<div className={`icon head-link ${item.icon} ${item.link === path ? 'active' : ''}`} onClick={(e) => { this.menuTabs(e) }}><Link to={item.link}>{item.title}</Link></div>)
           ))}
           <div className="head-top">
-            {/* <div className="btn btn-blur">测试者社区</div> */}
+            <div className="btn btn-blur">测试者社区</div>
           </div>
         </div>
       </div>

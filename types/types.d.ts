@@ -16,5 +16,5 @@ interface SystemJS {
   import: (path?: string) => Promise<any>;
 }
 declare var CountUp:any;
-declare module 'antd-mobile';
+declare module "antd-mobile";
 declare module '*';

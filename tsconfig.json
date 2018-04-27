@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
     "sourceMap": true,
-    "target": "es6",
+    "target": "es5",
     "jsx": "react",
-    "module": "esnext",
+    "module": "es6",
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,

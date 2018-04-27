@@ -65,20 +65,20 @@
             background: gradient(linear, left, from(#3f99e8), to(#10bbed));
           }
         }
-        p{
+        p {
           font-size: 26px;
           color: #666;
           line-height: 1.7;
           margin-bottom: 40px;
         }
-        .two-imgs{
+        .two-imgs {
           margin-top: 30px;
           padding-right: 70px;
-          & > div{
+          &>div {
             margin-bottom: 50px;
-            p{
+            p {
               margin: 0 20px;
-              img{
+              img {
                 width: 100%;
                 height: auto;
               }
@@ -87,7 +87,7 @@
         }
       }
     }
-    .two-wth{
+    .two-wth {
       width: 270px;
       margin: 0 auto 70px;
     }

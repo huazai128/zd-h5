@@ -50,6 +50,7 @@ export default class News extends React.Component<any, any>{
       get("/news", { column: 2, ...params }),
       get("/news", { column: 3, ...params }))
       .subscribe((res) => {
+        console.log(res);
         this.setState({
           result: res
         })
