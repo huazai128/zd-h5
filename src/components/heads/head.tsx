@@ -10,7 +10,8 @@ export interface HeadType {
   title: string;
   children?: HeadType[];
   icon?: string;
-  link?: string
+  link?: string;
+  [key:string]:any;
 }
 
 export interface HeadState<T> {
@@ -47,6 +48,12 @@ export default class Heads<T> extends React.Component<HeadProps<T>, HeadState<T>
       ],
       flag: false
     }
+  }
+  componentDidUpdate(){
+
+  }
+  componentWillReceiveProps(nextPros,){
+
   }
   componentDidMount() {
     let node = this.refs.navs as HTMLDivElement;

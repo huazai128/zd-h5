@@ -48,7 +48,8 @@ module.exports = {
 			loader: 'babel-loader',
 		}, {
 			test: /\.tsx?$/,
-			use: ['babel-loader', 'awesome-typescript-loader'],
+			use: ['babel-loader', 'ts-loader'],
+			exclude:/node_modules/,
 		},
 		{
 			test: /\.(eot|woff|woff2|ttf|png|jpe?g|jpg|gif|mp4|webm)(\?\S*)?$/,

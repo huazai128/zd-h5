@@ -59,14 +59,15 @@ export default class NewsComponent extends React.Component<any, NewsState>{
         )
       }),
       concatAll()
-    ).subscribe(({ amount, num }) => {
-      if (demo) {
-        amount += num;
-        demo.update(amount);
-      } else {
-        demo = new CountUp('count', (amount - 1000), amount, 0, 5, options);
-        demo.start();
-      }
+    ).subscribe((res) => {
+      console.log(res);
+      // if (demo && res) {
+      //   res!.amount += res!.num;
+      //   demo.update(res!.amount);
+      // } else {
+      //   demo = new CountUp('count', (res!.amount - 1000), res!.amount, 0, 5, options);
+      //   demo.start();
+      // }
     })
   }
   // 初始化数据
